@@ -2,6 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Chivo:wght@100;400&family=League+Spartan:wght@700&family=Noto+Sans+Tamil:wght@400;600&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&family=Poppins:wght@400;500;600&display=swap');
+
 :root {
   --fondonegro: #231f20;
   --verdeclaro: #65c18b;
@@ -17,3 +19,22 @@ body {
   background-color: var(--fondonegro);
   color: var(--colorfuente);
 }
+
+
+/**Presentacion**/
+.presentacion{
+  background-color: var(--verdeclaro);
+}
+
+.presentacion h1{
+  font-family: 'League Spartan', sans-serif;
+  font-size: 70px;
+  color: black;
+  
+}
+ .presentacion p{
+  font-family: "Open Sans", sans-serif;
+ }
+ .text-presentacion{
+  max-width: 600px;
+ }
