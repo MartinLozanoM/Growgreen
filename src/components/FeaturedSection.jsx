@@ -1,3 +1,7 @@
 export const FeaturedSection = () => {
-  return <div>Seccion de destacados</div>;
+  return (
+    <div className="section-size" id="featured-section">
+      Seccion de destacados
+    </div>
+  );
 };

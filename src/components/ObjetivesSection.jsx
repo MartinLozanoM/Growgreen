@@ -1,3 +1,7 @@
 export const ObjetivesSection = () => {
-  return <div>Seccion de objetivos</div>;
+  return (
+    <div className="section-size" id="objetives-section">
+      Seccion de objetivos
+    </div>
+  );
 };
