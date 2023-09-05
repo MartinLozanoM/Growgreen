@@ -1,3 +1,7 @@
 export const FormSection = () => {
-  return <div>Seccion del formulario de inscripcion</div>;
+  return (
+    <div className="section-size" id="form-section">
+      Seccion del formulario de inscripcion
+    </div>
+  );
 };
