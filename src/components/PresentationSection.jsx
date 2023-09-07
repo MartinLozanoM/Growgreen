@@ -3,10 +3,12 @@ import Logo from "../assets/image/Logo.png";
 
 export const PresentationSection = () => {
   return (
-    <div className="row presentacion section-size" id="presentation-section">
+    <div className="presentacion" id="presentation-section">
       <div className="col-md-8 col-sm d-flex justify-content-center">
         <div className=" text-presentacion ">
-          <h1 className="text-center ">Grown Green <br /> Punto Colombres</h1>
+          <h1 className="text-center ">
+            Grown Green <br /> Punto Colombres
+          </h1>
           <p className="text-center">
             Somos Grow Green Punto Colombres, un espacio de Crecimiento,
             Conección y Concreción. El primer HUB que reúne Tecnología y Triple

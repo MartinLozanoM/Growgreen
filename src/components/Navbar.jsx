@@ -2,17 +2,17 @@ import { Link } from "react-scroll";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Logo from "../assets/image/Logo3.jpg";
+import Logo from "../assets/image/Logo.png";
 
 export const NavbarPagination = () => {
   return (
-    <Navbar expand="md" className=" navbar-fixed">
+    <Navbar expand="md" className="navbar-fixed">
       <Container className="navbar-container">
         <Navbar.Brand className="brand-container" href="#home">
           <img
             src={Logo}
-            width="30"
-            height="30"
+            width="50"
+            height="50"
             className="d-inline-block align-top"
             alt="React Bootstrap logo"
           />
