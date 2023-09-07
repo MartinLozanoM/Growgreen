@@ -6,7 +6,7 @@ import Logo from "../assets/image/Logo3.jpg";
 
 export const NavbarPagination = () => {
   return (
-    <Navbar expand="md" className=" navbar-fixed">
+    <Navbar expand="md" className=" d">
       <Container className="navbar-container">
         <Navbar.Brand className="brand-container" href="#home">
           <img
