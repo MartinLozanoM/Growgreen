@@ -23,7 +23,7 @@ export const FeaturedSection = () => {
             <p>Construir y apoyar el desarrollo Sostenible</p>
           </div>
         </div>
-        <div className="col-md-4 col-sm-12 d-flex justify-content-center p-2">
+        <div className="col-md-4 col-sm-12 d-flex justify-content-center align-item-center p-2">
           <Image src={Logo} fluid></Image>
         </div>
         <div className="col-md-4 col-sm-12 d-flex justify-content-around flex-column text-white ">
