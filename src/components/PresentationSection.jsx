@@ -3,7 +3,7 @@ import Logo from "../assets/image/Logo.png";
 
 export const PresentationSection = () => {
   return (
-    <div className="row presentacion" id="presentation-section">
+    <div className="row presentacion section-size" id="presentation-section">
       <div className="col-md-8 col-sm d-flex justify-content-center align-items-center ">
         <div className=" text-presentacion ">
           <h1 className="text-center ">

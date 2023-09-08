@@ -78,7 +78,7 @@ ul {
 /*--- Presentation Section ---*/
 
 .section-size {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /**Presentacion**/
@@ -212,4 +212,11 @@ ul {
   background: linear-gradient(#000000, #000000) padding-box,
     linear-gradient(218deg, transparent 30%, #65c18b, #f4f4f4) border-box;
   transition: background-color 0.3s ease; /* Transición suave al hacer hover */
+}
+
+/*?-----Media Queries-----*/
+@media (min-width: 768px) {
+  .presentacion {
+    margin-top: 0px !important;
+  }
 }

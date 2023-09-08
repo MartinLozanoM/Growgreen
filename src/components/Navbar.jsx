@@ -27,7 +27,7 @@ export const NavbarPagination = () => {
                   to="presentation-section"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-75}
                   duration={100}
                 >
                   Presentacion
@@ -39,7 +39,7 @@ export const NavbarPagination = () => {
                   to="objetives-section"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-75}
                   duration={100}
                 >
                   Objetivos
@@ -51,7 +51,7 @@ export const NavbarPagination = () => {
                   to="featured-section"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-75}
                   duration={100}
                 >
                   Destacados
@@ -63,7 +63,7 @@ export const NavbarPagination = () => {
                   to="contact-section"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-75}
                   duration={100}
                 >
                   Contacto
@@ -75,7 +75,7 @@ export const NavbarPagination = () => {
                   to="form-section"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-75}
                   duration={100}
                 >
                   Formulario

@@ -6,7 +6,7 @@ import Image from "react-bootstrap/Image";
 
 export const ObjetivesSection = () => {
   return (
-    <div className="" id="objetives-section">
+    <div className="section-size" id="objetives-section">
       <div className="aboutus-container">
         <div>
           <Image src={Team} fluid />
