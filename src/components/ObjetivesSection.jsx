@@ -26,7 +26,7 @@ export const ObjetivesSection = () => {
         </div>
       </div>
       <div className="container text-center">
-        <div className="p-4 mb-3">
+        <div className="p-4 mb-3 objetives-container">
           <img src={Mission} alt="Mision" width="100" height="100" />
           <h3>Mision</h3>
           <p>
@@ -37,7 +37,7 @@ export const ObjetivesSection = () => {
             Global de nuestro HUB
           </p>
         </div>
-        <div className="p-4 mb-3">
+        <div className="p-4 mb-3 objetives-container">
           <img src={Vision} alt="Mision" width="100" height="100" />
           <h3>Vision</h3>
           <p>
@@ -46,7 +46,7 @@ export const ObjetivesSection = () => {
             Sostenibles. Ser reconocidos como agente de innovación.
           </p>
         </div>
-        <div className="p-4 mb-3">
+        <div className="p-4 mb-3 objetives-container">
           <img src={Values} alt="Mision" width="100" height="100" />
           <h3>Valores</h3>
           <p>

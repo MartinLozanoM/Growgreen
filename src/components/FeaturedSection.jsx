@@ -10,7 +10,7 @@ export const FeaturedSection = () => {
             <h2>Cordialidad y Educación</h2>
             <p>
               Enfoque en la persona porque creemos que no hay empresas que
-              perduren en el tiempo sin personas educadas, comprometidas y con
+              perduren en el tiempo sin personas educadas, comprometidas y con
               una mirada eólica
             </p>
           </div>
@@ -30,7 +30,7 @@ export const FeaturedSection = () => {
           <div className="featured-rigth p-2">
             <h2>Colaboración</h2>
             <p>
-              Trabajo en equipo e intercambio de conocimientos y experiencias
+              Trabajo en equipo e intercambio de conocimientos y experiencias
             </p>
           </div>
           <div className="featured-rigth p-2">
