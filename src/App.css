@@ -216,8 +216,29 @@ ul {
 
 /**Footer**/
 .footer{
+  font-family: "Open Sans", sans-serif;
   background-color: #000000;
 }
+.footer h2{
+  font-family: "League Spartan", sans-serif;
+  color: #65c18b;
+}
+.footer p{
+  font-family: "Open Sans", sans-serif;
+  color: var(--colorfuente);
+}
+.icon-link {
+  text-decoration: none; 
+  margin-right: 10px;
+  color: #f4f4f4; 
+  transition: transform 0.3s; 
+}
+
+.icon-link:hover {
+  transform: scale(1.1); 
+  color: #65c18b;
+}
+
 
 
 /*?-----Media Queries-----*/
