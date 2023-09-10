@@ -5,6 +5,8 @@ import { PresentationSection } from "./components/PresentationSection";
 import { ObjetivesSection } from "./components/ObjetivesSection";
 import { FeaturedSection } from "./components/FeaturedSection";
 import FormSection from "./components/FormSection";
+import { Footer } from "./components/Footer";
+import { ContactSection } from "./components/ContactSection";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <PresentationSection />
       <ObjetivesSection />
       <FeaturedSection />
-      <FormSection />
+      <ContactSection />
+      <FormSection/>
+      <Footer/>
     </>
   );
 }

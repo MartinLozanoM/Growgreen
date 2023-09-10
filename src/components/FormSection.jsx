@@ -171,7 +171,7 @@ const FormSection = () => {
           </form>
         </div>
       </div>
-      {/* <div className="col-md-4 col-sm-12 d-flex flex-column justify-content-center align-item-center LogoForm shadow-lg ">
+    <div className="col-md-4 col-sm-12 d-flex flex-column justify-content-center align-item-center LogoForm shadow-lg ">
         <h2
           className="text-center "
           style={{ marginTop: "10px", paddingTop: "10px" }}
@@ -180,7 +180,7 @@ const FormSection = () => {
         </h2>
         <p className="text-center pb-0 mb-0 ">"PENSAMOS EN UN LEGADO"</p>
         <Image src={Logo} className="pt-0 mt-0 pb-3" fluid></Image>
-      </div> */}
+      </div>
     </div>
   );
 };

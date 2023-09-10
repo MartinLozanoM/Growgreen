@@ -85,6 +85,7 @@ ul {
 .presentacion {
   background-color: var(--verdeclaro);
   margin-top: 76px !important;
+  
 }
 
 .presentacion h1 {
@@ -99,18 +100,33 @@ ul {
 .text-presentacion {
   max-width: 600px;
 }
+.Presentation-divition {
+  width: 80%;
+  background-color: #000000;
+  height: 45px; 
+  margin-top: 20px; 
+  border: none; 
+}
+
 
 /** Objetivos **/
 
 .aboutus-container {
   padding-bottom: 12px;
   border-bottom: 3px solid var(--verdeclaro);
+  
 }
 
 .aboutus-text h2 {
   color: var(--verdeclaro);
   font-size: 60px;
   font-family: "League Spartan", sans-serif;
+}
+.objetives-container{
+  background-color: #65c18b;
+}
+.objetives{
+  background-color: #000000;
 }
 
 .objetives-container img {
@@ -214,7 +230,7 @@ ul {
 .featured-rigth:hover {
   background: linear-gradient(#000000, #000000) padding-box,
     linear-gradient(145deg, transparent 30%, #65c18b, #f7f7f7) border-box;
-  transition: background-color 0.3s ease; /* Transición suave al hacer hover */
+  transition: background-color 0.3s ease;
 }
 
 .featured-left {
@@ -238,6 +254,33 @@ ul {
     linear-gradient(218deg, transparent 30%, #65c18b, #f4f4f4) border-box;
   transition: background-color 0.3s ease; /* Transición suave al hacer hover */
 }
+
+/**Footer**/
+.footer{
+  font-family: "Open Sans", sans-serif;
+  background-color: #000000;
+}
+.footer h2{
+  font-family: "League Spartan", sans-serif;
+  color: #65c18b;
+}
+.footer p{
+  font-family: "Open Sans", sans-serif;
+  color: var(--colorfuente);
+}
+.icon-link {
+  text-decoration: none; 
+  margin-right: 10px;
+  color: #f4f4f4; 
+  transition: transform 0.3s; 
+}
+
+.icon-link:hover {
+  transform: scale(1.1); 
+  color: #65c18b;
+}
+
+
 
 /*?-----Media Queries-----*/
 @media (min-width: 768px) {
