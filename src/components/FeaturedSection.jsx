@@ -4,7 +4,10 @@ import Logo from "../assets/image/LogoTransparente.png";
 export const FeaturedSection = () => {
   return (
     <>
-      <div className="featured p-4 section-size" id="featured-section">
+      <div
+        className="d-md-flex flex-md-wrap featured p-4 section-size"
+        id="featured-section"
+      >
         <div className="col-md-4 col-sm-12 d-flex justify-content-around flex-column p-4  ">
           <div className="featured-left p-2">
             <h2>Cordialidad y Educación</h2>

@@ -5,7 +5,7 @@ export const PresentationSection = () => {
   return (
     <>
       <div
-        className="presentacion section-size pt-5 "
+        className="d-md-flex flex-md-wrap presentacion section-size pt-5 "
         id="presentation-section"
       >
         <div className="col-md-8 col-sm d-flex justify-content-center align-items-center ">

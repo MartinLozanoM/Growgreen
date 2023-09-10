@@ -112,7 +112,6 @@ ul {
 
 .aboutus-container {
   padding-bottom: 12px;
-  border-bottom: 3px solid var(--verdeclaro);
 }
 
 .aboutus-text h2 {
@@ -120,19 +119,21 @@ ul {
   font-size: 60px;
   font-family: "League Spartan", sans-serif;
 }
+
 .objetives-container {
-  background-color: #65c18b;
+  background-color: #000000;
 }
+
 .objetives {
   background-color: #000000;
 }
 
-.objetives-container img {
+.objetives img {
   filter: invert(68%) sepia(8%) saturate(1801%) hue-rotate(92deg)
     brightness(96%) contrast(95%);
 }
 
-.objetives-container p {
+.objetives p {
   letter-spacing: 2px;
 }
 
@@ -271,3 +272,14 @@ ul {
 }
 
 /*?-----Media Queries-----*/
+@media (min-width: 992px) {
+  .objetives-container {
+    background-color: #65c18b;
+  }
+}
+
+@media (min-width: 1200px) {
+  .aboutus-text p {
+    font-size: 20px;
+  }
+}
