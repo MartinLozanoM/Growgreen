@@ -4,13 +4,13 @@ import Logo from "../assets/image/LogoTransparente.png";
 export const FeaturedSection = () => {
   return (
     <>
-      <div className="featured row p-4 section-size" id="featured-section">
+      <div className="featured  row p-4 section-size" id="featured-section">
         <div className="col-md-4 col-sm-12 d-flex justify-content-around flex-column p-4  ">
           <div className="featured-left p-2">
             <h2>Cordialidad y Educación</h2>
             <p>
               Enfoque en la persona porque creemos que no hay empresas que
-              perduren en el tiempo sin personas educadas, comprometidas y con
+              perduren en el tiempo sin personas educadas, comprometidas y con
               una mirada eólica
             </p>
           </div>
@@ -30,7 +30,7 @@ export const FeaturedSection = () => {
           <div className="featured-rigth p-2">
             <h2>Colaboración</h2>
             <p>
-              Trabajo en equipo e intercambio de conocimientos y experiencias
+              Trabajo en equipo e intercambio de conocimientos y experiencias
             </p>
           </div>
           <div className="featured-rigth p-2">

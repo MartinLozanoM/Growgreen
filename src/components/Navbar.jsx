@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Logo from "../assets/image/Logo.png";
+import Logo from "../assets/image/LogoTransparente.png";
 
 export const NavbarPagination = () => {
   return (
@@ -69,7 +69,7 @@ export const NavbarPagination = () => {
                   Contacto
                 </Link>
               </li>
-              <li className="nav-items">
+              {/* <li className="nav-items">
                 <Link
                   activeClass="active"
                   to="form-section"
@@ -80,7 +80,7 @@ export const NavbarPagination = () => {
                 >
                   Formulario
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </Nav>
         </Navbar.Collapse>

@@ -4,9 +4,9 @@ import { NavbarPagination } from "./components/Navbar";
 import { PresentationSection } from "./components/PresentationSection";
 import { ObjetivesSection } from "./components/ObjetivesSection";
 import { FeaturedSection } from "./components/FeaturedSection";
-import { ContactSection } from "./components/ContactSection";
 import FormSection from "./components/FormSection";
 import { Footer } from "./components/Footer";
+import { ContactSection } from "./components/ContactSection";
 
 function App() {
   return (
