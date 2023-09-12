@@ -133,7 +133,10 @@ ul {
   background-color: #f4f4f4;
 }
 .objetives{
-  background-color: #000000;
+  
+  background-color: #f4f4f4;
+  border: solid black;
+  color: #000000;
 }
 .objetives:hover{
   background-color: #f4f4f4;
