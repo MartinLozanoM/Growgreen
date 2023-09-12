@@ -7,6 +7,7 @@ import { FeaturedSection } from "./components/FeaturedSection";
 import FormSection from "./components/FormSection";
 import { Footer } from "./components/Footer";
 import { ContactSection } from "./components/ContactSection";
+import { AboutSection } from "./components/AboutSection";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <FeaturedSection />
       <ContactSection />
       <FormSection/>
+      <AboutSection/>
       <Footer/>
     </>
   );

@@ -8,8 +8,8 @@ export const ObjetivesSection = () => {
   return (
 
     <div className="" id="objetives-section">
-            <div className="text-center row objetives-container  d-flex justify-content-around">
-        <div className="col-md-3 p-3  rounded mb-5 m-1 objetives">
+            <div className="text-center row objetives-container pt-5 d-flex justify-content-around">
+        <div className="col-md-3 p-3 border border-dark  mb-5 m-1 objetives">
           <img src={Mission} alt="Mision" width="100" height="100" />
           <h3>Mision</h3>
           <p>
@@ -20,7 +20,7 @@ export const ObjetivesSection = () => {
             Global de nuestro HUB
           </p>
         </div>
-        <div className="col-md-3 p-3 rounded mb-5 m-1 objetives">
+        <div className="col-md-3 p-3 border border-dark mb-5 m-1 objetives">
           <img src={Vision} alt="Mision" width="100" height="100" />
           <h3>Vision</h3>
           <p>
@@ -29,7 +29,7 @@ export const ObjetivesSection = () => {
             Sostenibles. Ser reconocidos como agente de innovación.
           </p>
         </div>
-        <div className="col-md-3 p-3  rounded mb-5 m-1 objetives">
+        <div className="col-md-3 p-3  border border-dark mb-5 m-1 objetives">
           <img src={Values} alt="Mision" width="100" height="100" />
           <h3>Valores</h3>
           <p>

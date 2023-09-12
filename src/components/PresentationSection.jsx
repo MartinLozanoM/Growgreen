@@ -4,9 +4,9 @@ import Logo from "../assets/image/Logo.png";
 export const PresentationSection = () => {
   return (
     <>
-    <div className="row presentacion section-size pt-5 " id="presentation-section">
+    <div className="row presentacion p-2 pt-5" id="presentation-section">
 
-      <div className="col-md-8 col-sm d-flex justify-content-center align-items-center ">
+      <div className="col-md-8 mt-5 pt-5 col-sm d-flex justify-content-center align-items-center mb-5 ">
         <div className=" text-presentacion ">
           <h1 className="text-center ">
             Grown Green <br /> Punto Colombres
@@ -22,7 +22,7 @@ export const PresentationSection = () => {
       <div className="col-md-4 col-sm d-flex justify-content-center align-item-center align-items-center">
         <Image src={Logo} fluid></Image>
       </div>
-      <div className="row ">
+      <div className="row pt-5">
     <div className="Presentation-divition col-md-8 rounded-end "></div>
     </div>
     </div>
