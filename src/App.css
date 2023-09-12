@@ -83,16 +83,15 @@ ul {
 
 /**Presentacion**/
 .presentacion {
-background-color: #f4f4f4;
-  margin-top: 500px !important;
- 
+  background-color: var(--verdeclaro);
+  margin-top: 76px !important;
   
 }
 
 .presentacion h1 {
   font-family: "League Spartan", sans-serif;
   font-size: 70px;
-  color: var(--verdeoscuro);
+  color: black;
 }
 .presentacion p {
   color: black;
@@ -103,7 +102,7 @@ background-color: #f4f4f4;
 }
 .Presentation-divition {
   width: 80%;
-  background-color: #231f20 ;
+  background-color: #000000;
   height: 45px; 
   margin-top: 20px; 
   border: none; 
@@ -131,15 +130,15 @@ background-color: #f4f4f4;
   border: none; 
 }
 .objetives-container{
-  background-color: #f4f4f4;
+  background-color: #65c18b;
 }
 .objetives{
-  background-color: #231f20;
+  background-color: #000000;
 }
 .objetives:hover{
   background-color: #f4f4f4;
+  border: solid black;
   color: #000000;
-  
 }
 
 .objetives-container img {
@@ -173,7 +172,7 @@ background-color: #f4f4f4;
 /**FormSection**/
 
 .FormContainer {
-  background-color: #f4f4f4;
+  background-color: var(--verdeclaro);
 }
 
 .input-bottom-border {
@@ -222,13 +221,13 @@ background-color: #f4f4f4;
 /**Featured**/
 
 .featured {
-  background-color: #f4f4f4;
+  background-color: black;
 }
 .featured-rigth {
   margin: 0 auto;
-  
+  border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
+  background: linear-gradient(#000000, #000000) padding-box,
     linear-gradient(145deg, transparent 30%, #65c18b, #239055) border-box;
   border: 0.15rem solid transparent;
 }
@@ -238,19 +237,19 @@ background-color: #f4f4f4;
 }
 .featured-rigth p {
   font-family: "Open Sans", sans-serif;
-  color: #000000;
+  color: var(--colorfuente);
 }
 .featured-rigth:hover {
-  background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
-    linear-gradient(145deg, transparent 30%, #000000, #65c18b) border-box;
+  background: linear-gradient(#000000, #000000) padding-box,
+    linear-gradient(145deg, transparent 30%, #65c18b, #f7f7f7) border-box;
   transition: background-color 0.3s ease;
 }
 
 .featured-left {
   margin: 0 auto;
-  
+  border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
+  background: linear-gradient(#000000, #000000) padding-box,
     linear-gradient(218deg, transparent 30%, #65c18b, #239055) border-box;
   border: 0.15rem solid transparent;
 }
@@ -260,12 +259,12 @@ background-color: #f4f4f4;
 }
 .featured-left p {
   font-family: "Open Sans", sans-serif;
-  color: var(--fondonegro);
+  color: var(--colorfuente);
 }
 .featured-left:hover {
-  background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
-    linear-gradient(145deg, transparent 30%, #000000, #65c18b) border-box;
-  transition: background-color 0.3s ease;
+  background: linear-gradient(#000000, #000000) padding-box,
+    linear-gradient(218deg, transparent 30%, #65c18b, #f4f4f4) border-box;
+  transition: background-color 0.3s ease; /* Transición suave al hacer hover */
 }
 .Logo-Featured{
   max-width: 100%;

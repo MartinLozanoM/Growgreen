@@ -1,5 +1,5 @@
 import { Image } from "react-bootstrap";
-import Logo from "../assets/image/Logo.png";
+import Logo from "../assets/image/LogoTransparente.png";
 
 export const FeaturedSection = () => {
   return (
