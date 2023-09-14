@@ -3,7 +3,9 @@ import Logo from "../assets/image/Logo.png";
 
 export const FeaturedSection = () => {
   return (
-    <div className="featured row p-4 section-size" id="featured-section">
+    <div className="container-fluid" id="featured-section">
+      <hr className="text-dark container" />
+      <div className="row featured row p-4 section-size">
       <div className="col-md-4 col-sm-12 d-flex justify-content-around flex-column p-4">
         <div className="featured-left p-2 ">
           <h2>Cordialidad y Educación</h2>
@@ -24,7 +26,7 @@ export const FeaturedSection = () => {
       <div className="col-md-4 col-sm-12 d-flex justify-content-center align-items-center p-4">
         <Image src={Logo} className="Logo-Featured" alt="Logo" />
       </div>
-      <div className="col-md-4 col-sm-12 d-flex justify-content-around flex-column text-white p-5">
+      <div className="col-md-4 col-sm-12 d-flex justify-content-around flex-column text-white p-4">
         <div className="featured-rigth p-2">
           <h2>Colaboración</h2>
           <p>
@@ -38,6 +40,8 @@ export const FeaturedSection = () => {
           </p>
         </div>
       </div>
+    </div>
+    <hr className="text-dark container" />
     </div>
   );
 };

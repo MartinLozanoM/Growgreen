@@ -39,8 +39,8 @@ const FormSection = () => {
   };
 
   return (
-    <div className="row FormContainer p-5 section-size" id="contact-section">
-      <ContactSection />
+    <div className="container-fluid " id="contact-section">
+      <div className="row FormContainer p-5 section-size">
       <div className=" inputContainer bg-white  col-md-8 col-sm-12  p-4">
         <div className="container p-4">
           <h2 className=" fw-bolder-4 text-dark pb-2 text-start">
@@ -181,6 +181,7 @@ const FormSection = () => {
         <p className="text-center pb-0 mb-0 ">"PENSAMOS EN UN LEGADO"</p>
         <Image src={Logo} className="pt-0 mt-0 pb-3" fluid></Image>
       </div>
+    </div>
     </div>
   );
 };

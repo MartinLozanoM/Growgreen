@@ -5,7 +5,8 @@ import Team from "../assets/image/Team.jpg";
 export const AboutSection = () => {
 
     return(
-        <div className="  about-container p-5 row">
+        <div className=" container-fluid ">
+          <div className="row about-container p-5 ">
         <div className="col-md-6">
           <Image src={Team} fluid rounded />
         </div>
@@ -22,7 +23,7 @@ export const AboutSection = () => {
             Estudio.
           </p>
         </div>
-
+        </div>
       </div>
     )
 }

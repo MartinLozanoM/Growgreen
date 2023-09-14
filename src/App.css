@@ -12,7 +12,7 @@
 body {
   /* font-family: 'League Spartan', sans-serif; */
   font-family: "Open Sans", sans-serif;
-  background-color: black !important;
+  background-color:#f4f4f4 !important;
   color: var(--colorfuente) !important;
 }
 
@@ -84,7 +84,7 @@ ul {
 /**Presentacion**/
 .presentacion {
 background-color: #f4f4f4;
-  margin-top: 500px !important;
+  margin-top: 76px !important;
  
   
 }
@@ -146,6 +146,8 @@ background-color: #f4f4f4;
 .objetives:hover{
   background-color: #bdbdbd;
   color: #000000;
+  transform: translateY(-5px);
+  transition: background-color 0.3s ease, transform 0.3s ease;
   
 }
 
