@@ -92,7 +92,7 @@ background-color: #f4f4f4;
 .presentacion h1 {
   font-family: "League Spartan", sans-serif;
   font-size: 70px;
-  color: var(--verdeoscuro);
+  color: black;
 }
 .presentacion p {
   color: black;
@@ -108,18 +108,23 @@ background-color: #f4f4f4;
   margin-top: 20px; 
   border: none; 
 }
+.LogoPresentation{
+  max-width: 100%;
+  height: auto;
+ object-fit: contain;
+}
 
 
 /** Objetivos **/
 
-.aboutus-container {
+.about-container {
 
-
+background-color: #f4f4f4;
   
 }
 
 .aboutus-text h2 {
-  color: var(--verdeclaro);
+  color: black;
   font-size: 60px;
   font-family: "League Spartan", sans-serif;
 }
@@ -134,10 +139,12 @@ background-color: #f4f4f4;
   background-color: #f4f4f4;
 }
 .objetives{
-  background-color: #231f20;
+  background-color: #f4f4f4;
+  color: #000000;
+  box-shadow: 0 0 5px rgba(83, 83, 83, 0.5);
 }
 .objetives:hover{
-  background-color: #f4f4f4;
+  background-color: #bdbdbd;
   color: #000000;
   
 }
@@ -173,9 +180,11 @@ background-color: #f4f4f4;
 /**FormSection**/
 
 .FormContainer {
-  background-color: #f4f4f4;
+  background-color: #000000;
 }
-
+.inputContainer{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
 .input-bottom-border {
   border: none;
   border-bottom: 3px solid black;
@@ -209,6 +218,7 @@ background-color: #f4f4f4;
 
 .LogoForm {
   background-color: black;
+   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .LogoForm h2 {
@@ -226,7 +236,7 @@ background-color: #f4f4f4;
 }
 .featured-rigth {
   margin: 0 auto;
-  
+
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
     linear-gradient(145deg, transparent 30%, #65c18b, #239055) border-box;
@@ -234,7 +244,7 @@ background-color: #f4f4f4;
 }
 .featured-rigth h2 {
   font-family: "League Spartan", sans-serif;
-  color: #65c18b;
+  color: #000000;
 }
 .featured-rigth p {
   font-family: "Open Sans", sans-serif;
@@ -244,6 +254,8 @@ background-color: #f4f4f4;
   background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
     linear-gradient(145deg, transparent 30%, #000000, #65c18b) border-box;
   transition: background-color 0.3s ease;
+  transform: translateY(-5px);
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .featured-left {
@@ -256,7 +268,7 @@ background-color: #f4f4f4;
 }
 .featured-left h2 {
   font-family: "League Spartan", sans-serif;
-  color: #65c18b;
+  color: #000000;
 }
 .featured-left p {
   font-family: "Open Sans", sans-serif;
@@ -266,6 +278,8 @@ background-color: #f4f4f4;
   background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
     linear-gradient(145deg, transparent 30%, #000000, #65c18b) border-box;
   transition: background-color 0.3s ease;
+  transform: translateY(-5px);
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .Logo-Featured{
   max-width: 100%;

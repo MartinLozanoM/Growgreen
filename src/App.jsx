@@ -14,11 +14,12 @@ function App() {
     <>
       <NavbarPagination />
       <PresentationSection />
+      <AboutSection/>
       <ObjetivesSection />
       <FeaturedSection />
       <ContactSection />
       <FormSection/>
-      <AboutSection/>
+      
       <Footer/>
     </>
   );

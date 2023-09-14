@@ -41,7 +41,7 @@ const FormSection = () => {
   return (
     <div className="row FormContainer p-5 section-size" id="contact-section">
       <ContactSection />
-      <div className=" inputContainer bg-white  col-md-8 col-sm-12 shadow-lg p-4">
+      <div className=" inputContainer bg-white  col-md-8 col-sm-12  p-4">
         <div className="container p-4">
           <h2 className=" fw-bolder-4 text-dark pb-2 text-start">
             ¿Queres saber mas?
@@ -171,7 +171,7 @@ const FormSection = () => {
           </form>
         </div>
       </div>
-    <div className="col-md-4 col-sm-12 d-flex flex-column justify-content-center align-item-center LogoForm shadow-lg ">
+    <div className="col-md-4 col-sm-12 d-flex flex-column justify-content-center align-item-center  LogoForm  ">
         <h2
           className="text-center "
           style={{ marginTop: "10px", paddingTop: "10px" }}

@@ -3,6 +3,8 @@ import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export const Footer = () => {
   return (
+  <>
+    <div className="about-divisor rounded mt-4 container"></div>
     <div className="footer p-4">
       <div className="row text-white p-5 pb-4 ">
         <div className="col-md-3 col-sm-12">
@@ -53,5 +55,6 @@ export const Footer = () => {
       <p className="text-center text-secondary">Todos los derechos reservados &copy; 2023</p>
       </div>
     </div>
+    </>
   );
 }

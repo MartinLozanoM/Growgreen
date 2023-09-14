@@ -1,5 +1,5 @@
 import { Image } from "react-bootstrap";
-import Logo from "../assets/image/Logo.png";
+import Logo from "../assets/image/LogoTransparenteVerde.png";
 
 export const PresentationSection = () => {
   return (
@@ -19,8 +19,8 @@ export const PresentationSection = () => {
           </p>
         </div>
       </div>
-      <div className="col-md-4 col-sm d-flex justify-content-center align-item-center align-items-center">
-        <Image src={Logo} fluid></Image>
+      <div className=" pt-5 col-md-4 col-sm d-flex justify-content-center align-item-center align-items-center">
+        <Image src={Logo} fluid className="LogoPresentation"></Image>
       </div>
       <div className="row pt-5">
     <div className="Presentation-divition col-md-8 rounded-end "></div>
