@@ -81,7 +81,7 @@ ul {
 }
 
 .presentacion {
-  background-color: var(--verdeclaro);
+  background-color: var(--colorfuente);
   margin-top: 76px !important;
 }
 
@@ -110,22 +110,31 @@ ul {
 
 /** Objetivos **/
 
-.aboutus-container {
-  padding-bottom: 12px;
-}
-
 .aboutus-text h2 {
-  color: var(--verdeclaro);
+  color: var(--colorfuente);
   font-size: 60px;
   font-family: "League Spartan", sans-serif;
 }
+.about-divisor{
+  
+  background-color: #f4f4f4;
+  height: 10px; 
 
-.objetives-container {
-  background-color: #000000;
+  border: none; 
 }
-
-.objetives {
-  background-color: #000000;
+.objetives-container{
+  background-color: #f4f4f4;
+}
+.objetives{
+  
+  background-color: #f4f4f4;
+  border: solid black;
+  color: #000000;
+}
+.objetives:hover{
+  background-color: #f4f4f4;
+  border: solid black;
+  color: #000000;
 }
 
 .objetives img {
@@ -200,7 +209,7 @@ ul {
 /**FormSection**/
 
 .FormContainer {
-  background-color: var(--verdeclaro);
+  background-color: #f4f4f4;
 }
 
 .input-bottom-border {
@@ -246,6 +255,63 @@ ul {
   font-size: 15px;
 }
 
+/**Featured**/
+
+.featured {
+  background-color: #f4f4f4;
+}
+.featured-rigth {
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
+    linear-gradient(145deg, transparent 30%, #231f20, #239055) border-box;
+  border: 0.15rem solid transparent;
+}
+.featured-rigth h2 {
+  font-family: "League Spartan", sans-serif;
+  color: #231f20;
+}
+.featured-rigth p {
+  font-family: "Open Sans", sans-serif;
+  color: var(--fondonegro);
+}
+.featured-rigth:hover {
+  background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
+    linear-gradient(145deg, transparent 30%, #231f20, #f7f7f7) border-box;
+  transition: background-color 0.3s ease;
+}
+
+.featured-left {
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
+    linear-gradient(218deg, transparent 30%, #231f20, #239055) border-box;
+  border: 0.15rem solid transparent;
+}
+.featured-left h2 {
+  font-family: "League Spartan", sans-serif;
+  color: #231f20;
+}
+.featured-left p {
+  font-family: "Open Sans", sans-serif;
+  color: var(--fondonegro);
+}
+.featured-left:hover {
+  background: linear-gradient(#f4f4f4, #f4f4f4) padding-box,
+    linear-gradient(218deg, transparent 30%, #231f20, #f4f4f4) border-box;
+  transition: background-color 0.3s ease; 
+  max-width: 100%;
+  height: auto;
+ object-fit: contain;
+}
+.Logo-Featured{
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 /**Footer**/
 .footer {
   font-family: "Open Sans", sans-serif;
@@ -253,7 +319,7 @@ ul {
 }
 .footer h2 {
   font-family: "League Spartan", sans-serif;
-  color: #65c18b;
+  color: #f4f4f4;
 }
 .footer p {
   font-family: "Open Sans", sans-serif;

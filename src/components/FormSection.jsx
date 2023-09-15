@@ -44,7 +44,7 @@ const FormSection = () => {
     >
       <div className=" inputContainer bg-white  col-md-8 col-sm-12 shadow-lg p-4">
         <div className="container p-4">
-          <h2 className=" fw-bolder-4 text-dark pb-2 text-center">
+          <h2 className=" fw-bolder-4 text-dark pb-2 text-start">
             ¿Queres saber mas?
           </h2>
 
