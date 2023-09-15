@@ -122,13 +122,73 @@ const FormSection = () => {
                 <div className="pb-3">
                   <input
                     {...field}
-                    placeholder="Dirección de correo electrónico"
+                    placeholder="Email corporativo/trabajo"
                     autoComplete="off"
                     type="email"
                     className="input-bottom-border required"
                     style={{ paddingBottom: "35px" }}
                   />
                   {errors.email && <p>{errors.email.message}</p>}
+                </div>
+              )}
+            />
+                        <Controller
+              name="phone"
+              control={control}
+              rules={{
+                required: "El numero de telefono es requerido",
+                minLength: {
+                  value: 8,
+                  message: "El apellido debe tener entre 8 y 15 caracteres",
+                },
+                maxLength: {
+                  value: 20,
+                  message: "El telefono no puede tener más de 15 caracteres",
+                },
+              }}
+              render={({ field }) => (
+                <div className="col-6 pb-3">
+                  <input
+                    {...field}
+                    minLength="4"
+                    maxLength="15"
+                    placeholder="Telefono"
+                    autoComplete="off"
+                    type="number"
+                    className=" input-bottom-border required"
+                    style={{ paddingBottom: "35px", color: "black" }}
+                  />
+                  {errors.lastname && <p>{errors.lastname.message}</p>}
+                </div>
+              )}
+            />
+                        <Controller
+              name="studies"
+              control={control}
+              rules={{
+                required: "El Estudio es requerido",
+                minLength: {
+                  value: 4,
+                  message: "El nombre de Estudio debe tener entre 4 y 20 caracteres",
+                },
+                maxLength: {
+                  value: 20,
+                  message: "El Estudio no puede tener más de 20 caracteres",
+                },
+              }}
+              render={({ field }) => (
+                <div className="col-6 pb-3">
+                  <input
+                    {...field}
+                    minLength="4"
+                    maxLength="20"
+                    placeholder="Estudios"
+                    autoComplete="off"
+                    type="text"
+                    className=" input-bottom-border required"
+                    style={{ paddingBottom: "35px", color: "black" }}
+                  />
+                  {errors.lastname && <p>{errors.lastname.message}</p>}
                 </div>
               )}
             />
