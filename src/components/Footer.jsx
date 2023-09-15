@@ -3,7 +3,10 @@ import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <div className="footer p-4">
+  <>
+    
+    <div className="footer container-fluid p-4">
+    <div className="about-divisor container-fluid rounded mt-4 container"></div>
       <div className="row text-white p-5 pb-4 ">
         <div className="col-md-3 col-sm-12">
           <h2 className="fw-bold fs-1">GROWGREEN</h2>
@@ -53,5 +56,6 @@ export const Footer = () => {
       <p className="text-center text-secondary">Todos los derechos reservados &copy; 2023</p>
       </div>
     </div>
+    </>
   );
 }

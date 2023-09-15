@@ -6,7 +6,7 @@ import Team from "../assets/image/Team.jpg";
 
 export const ObjetivesSection = () => {
   return (
-    <div className="" id="objetives-section">
+    <div className="container-fluid" id="objetives-section">
             <div className="text-center row objetives-container pt-5 d-flex justify-content-around">
         <div className="col-md-3 p-3 border border-dark  mb-5 m-1 objetives">
           <img src={Mission} alt="Mision" width="100" height="100" />

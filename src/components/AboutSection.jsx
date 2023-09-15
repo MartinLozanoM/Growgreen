@@ -5,13 +5,14 @@ import Team from "../assets/image/Team.jpg";
 export const AboutSection = () => {
 
     return(
-        <div className="container-fluid p-5 row">
+        <div className=" container-fluid ">
+          <div className="row about-container p-5 ">
         <div className="col-md-6">
           <Image src={Team} fluid rounded />
         </div>
         <div className="p-5 text-center aboutus-text col-md-6 d-flex flex-column justify-content-center align-item-center">
           <h2 className="mt-3">Sobre Nosotros</h2>
-          <p>
+          <p className="text-dark">
             El Proyecto ideado por el Lic. Gerardo R. Blanche, Grow Green Punto
             Colombres, se encuentra ubicado en José Colombres 338 de San Miguel
             de Tucumán, emplazado cerca del centro de la ciudad,
@@ -22,7 +23,7 @@ export const AboutSection = () => {
             Estudio.
           </p>
         </div>
-        <div className="about-divisor rounded mt-4"></div>
+        </div>
       </div>
     )
 }
