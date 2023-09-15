@@ -2,7 +2,6 @@ import { useForm, Controller } from "react-hook-form";
 import { useState } from "react";
 import { Image } from "react-bootstrap";
 import Logo from "../assets/image/LogoTransparente.png";
-import { ContactSection } from "./ContactSection.jsx";
 
 const FormSection = () => {
   const {

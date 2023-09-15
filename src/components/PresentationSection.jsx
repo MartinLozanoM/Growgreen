@@ -27,7 +27,6 @@ export const PresentationSection = () => {
     </div>
     </div>
     </div>
-
     </>
   );
 };
