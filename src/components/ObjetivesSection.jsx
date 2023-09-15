@@ -1,17 +1,16 @@
-
 import Mission from "../assets/image/target.png";
 import Vision from "../assets/image/vision.png";
 import Values from "../assets/image/value.png";
-
+import { Image } from "react-bootstrap";
+import Team from "../assets/image/Team.jpg";
 
 export const ObjetivesSection = () => {
   return (
-
     <div className="" id="objetives-section">
             <div className="text-center row objetives-container pt-5 d-flex justify-content-around">
         <div className="col-md-3 p-3 border border-dark  mb-5 m-1 objetives">
           <img src={Mission} alt="Mision" width="100" height="100" />
-          <h3>Mision</h3>
+          <h3 className="mt-3 mb-2">Mision</h3>
           <p>
             Proporciona un espacio de colaborativo y expansivo de apoyo a
             personas, empresas, emprendedores, pymes, profesionales y
@@ -22,7 +21,7 @@ export const ObjetivesSection = () => {
         </div>
         <div className="col-md-3 p-3 border border-dark mb-5 m-1 objetives">
           <img src={Vision} alt="Mision" width="100" height="100" />
-          <h3>Vision</h3>
+          <h3 className="mt-3 mb-2">Vision</h3>
           <p>
             Convertimos en un referente territorial en el Noroeste de Argentina
             con una mirada Global para proyectos tecnológicos, Sustentables y
@@ -31,7 +30,7 @@ export const ObjetivesSection = () => {
         </div>
         <div className="col-md-3 p-3  border border-dark mb-5 m-1 objetives">
           <img src={Values} alt="Mision" width="100" height="100" />
-          <h3>Valores</h3>
+          <h3 className="mt-3 mb-2">Valores</h3>
           <p>
             Comprometidos con promover prácticas innovadoras, de impacto
             positivo y buenas prácticas en todos nuestros procesos y
@@ -40,8 +39,6 @@ export const ObjetivesSection = () => {
           </p>
         </div>
       </div>
- 
-
     </div>
   );
 };

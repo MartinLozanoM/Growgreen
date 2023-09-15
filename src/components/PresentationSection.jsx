@@ -26,7 +26,6 @@ export const PresentationSection = () => {
     <div className="Presentation-divition col-md-8 rounded-end "></div>
     </div>
     </div>
-
     </>
   );
 };
