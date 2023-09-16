@@ -225,7 +225,7 @@ const FormSection = () => {
                 <p className="p-2 rounded bg-danger text-white">{formError}</p>
               )}
 
-              <div className="col-12 pb-3">
+              <div className="form-button-container col-12 pb-3">
                 <button className="button-form" type="submit">
                   Enviar
                 </button>

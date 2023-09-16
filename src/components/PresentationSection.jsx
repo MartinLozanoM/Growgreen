@@ -1,11 +1,12 @@
 import { Image } from "react-bootstrap";
 import Logo from "../assets/image/LogoTransparenteVerde.png";
+import { Button } from "react-scroll";
 
 export const PresentationSection = () => {
   return (
-    <div className="container-fluid" id="presentation-section">
+    <div className="container-fluid all-section" id="presentation-section">
       <div className="section-size row presentacion p-2 pt-5">
-        <div className="col-md-8 mt-5 pt-5 col-sm d-flex justify-content-center align-items-center mb-5 ">
+        <div className="col-md-8 mt-5 pt-5 col-sm d-flex flex-column justify-content-center align-items-center mb-5 ">
           <div className=" text-presentacion ">
             <h1 className="text-center ">
               Grown Green <br /> Punto Colombres
@@ -17,6 +18,17 @@ export const PresentationSection = () => {
               colaborar, Co crear, Conectar en entornos diferentes.
             </p>
           </div>
+          <Button
+            activeClass="active"
+            className="presentation-button"
+            type="submit"
+            value="Solicitar informacion"
+            to="contact-section"
+            spy={true}
+            smooth={true}
+            offset={-75}
+            duration={100}
+          ></Button>
         </div>
         <div className="pt-5 col-md-4 col-sm d-flex justify-content-center align-item-center align-items-center p-5">
           <Image
@@ -25,9 +37,6 @@ export const PresentationSection = () => {
             className="LogoPresentation"
             alt="Logo Presentation-Section"
           ></Image>
-        </div>
-        <div className="row pt-5">
-          <div className="Presentation-divition col-md-8 rounded-end "></div>
         </div>
       </div>
     </div>

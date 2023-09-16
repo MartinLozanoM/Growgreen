@@ -4,17 +4,16 @@ import Values from "../assets/image/value.png";
 
 export const ObjetivesSection = () => {
   return (
-    <div className="container-fluid mt-lg-5" id="objetives-section">
+    <div className="container-fluid mt-lg-3 all-section" id="objetives-section">
       <div className="text-center row objetives-container d-lg-flex justify-content-lg-around">
         <div className="col-lg-3 p-3 border border-dark objetives">
           <img src={Mission} alt="Mision" width="100" height="100" />
           <h3 className="mt-3 mb-2">Mision</h3>
           <p>
-            Proporciona un espacio de colaborativo y expansivo de apoyo a
-            personas, empresas, emprendedores, pymes, profesionales y
-            empresarios dedicados a proyectos tecnológicos y de triple Impacto,
-            con el propósito de impactar positivamente en el modelo Grow Green
-            Global de nuestro HUB
+            Proporciona un espacio colaborativo y expansivo de apoyo a personas,
+            empresas, emprendedores, pymes, y profesionales dedicados a
+            proyectos tecnológicos y de Triple Impacto, con el propósito de
+            impactar positivamente en el modelo Grow Green Global de nuestro HUB
           </p>
         </div>
         <div className="col-lg-3 p-3 border border-dark objetives">
