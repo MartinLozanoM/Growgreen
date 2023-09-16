@@ -24,7 +24,11 @@ export const FeaturedSection = () => {
           </div>
         </div>
         <div className="col-md-4 col-sm-12 d-flex justify-content-center align-items-center p-4">
-          <Image src={Logo} className="Logo-Featured" alt="Logo" />
+          <Image
+            src={Logo}
+            className="Logo-Featured"
+            alt="Logo Featured-Section"
+          />
         </div>
         <div className="col-md-4 col-sm-12 d-flex justify-content-around flex-column text-white p-4">
           <div className="featured-rigth p-2">

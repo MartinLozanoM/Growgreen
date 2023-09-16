@@ -18,7 +18,7 @@ export const ObjetivesSection = () => {
           </p>
         </div>
         <div className="col-lg-3 p-3 border border-dark objetives">
-          <img src={Vision} alt="Mision" width="100" height="100" />
+          <img src={Vision} alt="Vision" width="100" height="100" />
           <h3 className="mt-3 mb-2">Vision</h3>
           <p>
             Convertimos en un referente territorial en el Noroeste de Argentina
@@ -27,7 +27,7 @@ export const ObjetivesSection = () => {
           </p>
         </div>
         <div className="col-lg-3 p-3  border border-dark objetives">
-          <img src={Values} alt="Mision" width="100" height="100" />
+          <img src={Values} alt="Valores" width="100" height="100" />
           <h3 className="mt-3 mb-2">Valores</h3>
           <p>
             Comprometidos con promover prácticas innovadoras, de impacto

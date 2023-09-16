@@ -241,7 +241,12 @@ const FormSection = () => {
             Slogan de Grow Green
           </h2>
           <p className="text-center pb-0 mb-0 ">"PENSAMOS EN UN LEGADO"</p>
-          <Image src={Logo} className="pt-0 mt-0 pb-3" fluid></Image>
+          <Image
+            src={Logo}
+            className="pt-0 mt-0 pb-3"
+            fluid
+            alt="Logo Image Form Section"
+          ></Image>
         </div>
       </div>
     </div>

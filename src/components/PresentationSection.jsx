@@ -19,7 +19,12 @@ export const PresentationSection = () => {
           </div>
         </div>
         <div className="pt-5 col-md-4 col-sm d-flex justify-content-center align-item-center align-items-center p-5">
-          <Image src={Logo} fluid className="LogoPresentation"></Image>
+          <Image
+            src={Logo}
+            fluid
+            className="LogoPresentation"
+            alt="Logo Presentation-Section"
+          ></Image>
         </div>
         <div className="row pt-5">
           <div className="Presentation-divition col-md-8 rounded-end "></div>
