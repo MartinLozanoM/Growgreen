@@ -36,13 +36,13 @@ export const NavbarPagination = () => {
               <li className="nav-items">
                 <Link
                   activeClass="active"
-                  to="objetives-section"
+                  to="aboutus-section"
                   spy={true}
                   smooth={true}
                   offset={-75}
                   duration={100}
                 >
-                  Objetivos
+                  Sobre Nosotros
                 </Link>
               </li>
               <li className="nav-items">

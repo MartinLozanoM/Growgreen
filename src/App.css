@@ -12,7 +12,7 @@
 body {
   /* font-family: 'League Spartan', sans-serif; */
   font-family: "Open Sans", sans-serif;
-  background-color:#f4f4f4 !important;
+  background-color: #f4f4f4 !important;
   color: var(--colorfuente) !important;
 }
 
@@ -81,7 +81,7 @@ ul {
 }
 
 .presentacion {
-background-color: #f4f4f4;
+  background-color: #f4f4f4;
   margin-top: 76px !important;
 }
 
@@ -107,16 +107,16 @@ background-color: #f4f4f4;
   margin-top: 20px;
   border: none;
 }
-.LogoPresentation{
+.LogoPresentation {
   max-width: 100%;
   height: auto;
- object-fit: contain;
+  object-fit: contain;
 }
 
 /** Objetivos **/
 
 .about-container {
-background-color: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
 .aboutus-text h2 {
@@ -124,22 +124,23 @@ background-color: #f4f4f4;
   font-size: 60px;
   font-family: "League Spartan", sans-serif;
 }
-.about-divisor{
-  
+.about-divisor {
   background-color: #f4f4f4;
-  height: 10px; 
+  height: 10px;
 
-  border: none; 
+  border: none;
 }
-.objetives-container{
+.objetives-container {
   background-color: #f4f4f4;
+  margin: auto !important;
 }
-.objetives{
+.objetives {
   background-color: #f4f4f4;
   color: #000000;
   box-shadow: 0 0 5px rgba(83, 83, 83, 0.5);
+  margin-bottom: 1rem;
 }
-.objetives:hover{
+.objetives:hover {
   background-color: #bdbdbd;
   color: #000000;
   transform: translateY(-5px);
@@ -152,6 +153,7 @@ background-color: #f4f4f4;
 }
 
 .objetives p {
+  font-size: 14px;
   letter-spacing: 2px;
 }
 
@@ -220,7 +222,7 @@ background-color: #f4f4f4;
 .FormContainer {
   background-color: #000000;
 }
-.inputContainer{
+.inputContainer {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 .input-bottom-border {
@@ -256,7 +258,7 @@ background-color: #f4f4f4;
 
 .LogoForm {
   background-color: black;
-   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .LogoForm h2 {
@@ -318,7 +320,7 @@ background-color: #f4f4f4;
   transform: translateY(-5px);
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
-.Logo-Featured{
+.Logo-Featured {
   max-width: 100%;
   height: auto;
   object-fit: contain;
@@ -350,11 +352,6 @@ background-color: #f4f4f4;
 }
 
 /*?-----Media Queries-----*/
-@media (min-width: 992px) {
-  .objetives-container {
-    background-color: #65c18b;
-  }
-}
 
 @media (min-width: 1200px) {
   .aboutus-text p {

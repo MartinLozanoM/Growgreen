@@ -1,14 +1,12 @@
 import Mission from "../assets/image/target.png";
 import Vision from "../assets/image/vision.png";
 import Values from "../assets/image/value.png";
-import { Image } from "react-bootstrap";
-import Team from "../assets/image/Team.jpg";
 
 export const ObjetivesSection = () => {
   return (
-    <div className="container-fluid" id="objetives-section">
-            <div className="text-center row objetives-container pt-5 d-flex justify-content-around">
-        <div className="col-md-3 p-3 border border-dark  mb-5 m-1 objetives">
+    <div className="container-fluid mt-lg-5" id="objetives-section">
+      <div className="text-center row objetives-container d-lg-flex justify-content-lg-around">
+        <div className="col-lg-3 p-3 border border-dark objetives">
           <img src={Mission} alt="Mision" width="100" height="100" />
           <h3 className="mt-3 mb-2">Mision</h3>
           <p>
@@ -19,7 +17,7 @@ export const ObjetivesSection = () => {
             Global de nuestro HUB
           </p>
         </div>
-        <div className="col-md-3 p-3 border border-dark mb-5 m-1 objetives">
+        <div className="col-lg-3 p-3 border border-dark objetives">
           <img src={Vision} alt="Mision" width="100" height="100" />
           <h3 className="mt-3 mb-2">Vision</h3>
           <p>
@@ -28,7 +26,7 @@ export const ObjetivesSection = () => {
             Sostenibles. Ser reconocidos como agente de innovación.
           </p>
         </div>
-        <div className="col-md-3 p-3  border border-dark mb-5 m-1 objetives">
+        <div className="col-lg-3 p-3  border border-dark objetives">
           <img src={Values} alt="Mision" width="100" height="100" />
           <h3 className="mt-3 mb-2">Valores</h3>
           <p>

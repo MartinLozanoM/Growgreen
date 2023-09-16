@@ -1,16 +1,15 @@
 import Image from "react-bootstrap/Image";
 import Team from "../assets/image/Team.jpg";
-
+import { ObjetivesSection } from "./ObjetivesSection";
 
 export const AboutSection = () => {
-
-    return(
-        <div className=" container-fluid ">
-          <div className="row about-container p-5 ">
-        <div className="col-md-6">
+  return (
+    <div className="section-size container-fluid" id="aboutus-section">
+      <div className="row about-container">
+        <div className="col-lg-6">
           <Image src={Team} fluid rounded />
         </div>
-        <div className="p-5 text-center aboutus-text col-md-6 d-flex flex-column justify-content-center align-item-center">
+        <div className="p-5 aboutus-text col-lg-6 d-flex flex-column justify-content-center align-item-center text-center">
           <h2 className="mt-3">Sobre Nosotros</h2>
           <p className="text-dark">
             El Proyecto ideado por el Lic. Gerardo R. Blanche, Grow Green Punto
@@ -23,7 +22,8 @@ export const AboutSection = () => {
             Estudio.
           </p>
         </div>
-        </div>
+        <ObjetivesSection />
       </div>
-    )
-}
+    </div>
+  );
+};
