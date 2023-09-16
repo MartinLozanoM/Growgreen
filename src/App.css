@@ -23,6 +23,12 @@ ul {
   list-style-type: none;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "League Spartan", sans-serif;
+}
+
 .all-section {
   margin-bottom: 1rem;
 }
@@ -144,7 +150,6 @@ ul {
 .aboutus-text h2 {
   color: black;
   font-size: 60px;
-  font-family: "League Spartan", sans-serif;
 }
 .about-divisor {
   background-color: #f4f4f4;
@@ -200,7 +205,6 @@ ul {
 }
 
 .featured-rigth h2 {
-  font-family: "League Spartan", sans-serif;
   color: #65c18b;
 }
 
@@ -220,7 +224,6 @@ ul {
 }
 
 .featured-left h2 {
-  font-family: "League Spartan", sans-serif;
   color: #65c18b;
 }
 
@@ -290,9 +293,11 @@ ul {
 .LogoForm h2 {
   font-family: "League Spartan", sans-serif;
   margin-bottom: 0px;
+  color: var(--colorfuente);
 }
 .LogoForm p {
   font-size: 15px;
+  color: var(--colorfuente);
 }
 
 /**Featured**/
@@ -364,6 +369,12 @@ ul {
   max-width: 100%;
   height: auto;
   object-fit: contain;
+}
+
+/** Axes **/
+
+.axes-one {
+  border-right: 3px solid black;
 }
 
 /**Footer**/

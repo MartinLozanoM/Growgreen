@@ -1,5 +1,6 @@
 import { Image } from "react-bootstrap";
 import Logo from "../assets/image/Logo.png";
+import { AxesSection } from "./AxesSection.jsx";
 
 export const FeaturedSection = () => {
   return (
@@ -48,6 +49,7 @@ export const FeaturedSection = () => {
           </div>
         </div>
       </div>
+      <AxesSection />
     </div>
   );
 };
