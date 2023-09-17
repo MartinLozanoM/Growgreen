@@ -1,12 +1,12 @@
 import { useForm, Controller } from "react-hook-form";
-import { useState } from "react";
 import { Image } from "react-bootstrap";
 import Logo from "../assets/image/LogoTransparente.png";
+import { useClients } from "../context/ClientProvider.jsx";
 
 const FormSection = () => {
   const {
+    register,
     handleSubmit,
-    control,
     formState: { errors },
     reset,
   } = useForm({
@@ -17,25 +17,12 @@ const FormSection = () => {
       message: "",
     },
   });
+  const { createClient } = useClients();
 
-  const [formMessage, setFormMessage] = useState("");
-  const [formError, setFormError] = useState("");
-
-  const onSubmit = async (data) => {
-    try {
-      await axios.post("http://localhost:5000/api/contact", data);
-      setFormError("");
-      setFormMessage("Datos enviados");
-      reset();
-
-      setTimeout(() => {
-        setFormMessage("");
-      }, 2000);
-    } catch (error) {
-      setFormError("Ha ocurrido un error al enviar los datos.");
-      setFormMessage("");
-    }
-  };
+  const onSubmit = handleSubmit(async (values) => {
+    createClient(values);
+    reset();
+  });
 
   return (
     <div className="section-size container-fluid" id="contact-section">
@@ -46,185 +33,69 @@ const FormSection = () => {
               ¿Queres saber mas?
             </h2>
 
-            <form className=" row my-4" onSubmit={handleSubmit(onSubmit)}>
-              <Controller
-                name="name"
-                control={control}
-                rules={{
-                  required: "El nombre es requerido",
-                  minLength: {
-                    value: 4,
-                    message: "El nombre debe tener entre 4 y 20 caracteres",
-                  },
-                  maxLength: {
-                    value: 20,
-                    message: "El apellido no puede tener más de 20 caracteres",
-                  },
-                }}
-                render={({ field }) => (
-                  <div className="col-md-6 pb-3">
-                    <input
-                      {...field}
-                      minLength="4"
-                      maxLength="20"
-                      placeholder="Nombre"
-                      autoComplete="off"
-                      type="text"
-                      className="input-bottom-border required"
-                      style={{ paddingBottom: "35px", color: "black" }}
-                    />
-                    {errors.name && <p>{errors.name.message}</p>}
-                  </div>
-                )}
+            <form className=" row my-4" onSubmit={onSubmit}>
+              <input
+                type="text"
+                {...register("name", { required: true })}
+                className="input-bottom-border required"
+                placeholder="Nombre"
+                style={{ paddingBottom: "35px", color: "black" }}
               />
-              <Controller
-                name="lastname"
-                control={control}
-                rules={{
-                  required: "El apellido es requerido",
-                  minLength: {
-                    value: 4,
-                    message: "El apellido debe tener entre 4 y 20 caracteres",
-                  },
-                  maxLength: {
-                    value: 20,
-                    message: "El apellido no puede tener más de 20 caracteres",
-                  },
-                }}
-                render={({ field }) => (
-                  <div className="col-md-6 pb-3">
-                    <input
-                      {...field}
-                      minLength="4"
-                      maxLength="20"
-                      placeholder="Apellido"
-                      autoComplete="off"
-                      type="text"
-                      className=" input-bottom-border required"
-                      style={{ paddingBottom: "35px", color: "black" }}
-                    />
-                    {errors.lastname && <p>{errors.lastname.message}</p>}
-                  </div>
-                )}
+              {errors.name && (
+                <p className="page-texto-rojo">El nombre es requerido</p>
+              )}
+              <input
+                type="text"
+                {...register("lastname", { required: true })}
+                className="input-bottom-border required"
+                placeholder="Apellido"
+                style={{ paddingBottom: "35px", color: "black" }}
               />
-              <Controller
-                name="email"
-                control={control}
-                rules={{
-                  required: "El email es requerido",
-                  pattern: {
-                    value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,3}$/i,
-                    message: "Dirección de correo inválida",
-                  },
-                }}
-                render={({ field }) => (
-                  <div className="pb-3">
-                    <input
-                      {...field}
-                      placeholder="Email corporativo/trabajo"
-                      autoComplete="off"
-                      type="email"
-                      className="input-bottom-border required"
-                      style={{ paddingBottom: "35px" }}
-                    />
-                    {errors.email && <p>{errors.email.message}</p>}
-                  </div>
-                )}
+              {errors.lastname && (
+                <p className="page-texto-rojo">El apellido es requerido</p>
+              )}
+              <input
+                type="email"
+                {...register("email", { required: true })}
+                className="input-bottom-border required"
+                placeholder="Email"
+                style={{ paddingBottom: "35px", color: "black" }}
               />
-              <Controller
-                name="phone"
-                control={control}
-                rules={{
-                  required: "El numero de telefono es requerido",
-                  minLength: {
-                    value: 8,
-                    message: "El apellido debe tener entre 8 y 15 caracteres",
-                  },
-                  maxLength: {
-                    value: 20,
-                    message: "El telefono no puede tener más de 15 caracteres",
-                  },
-                }}
-                render={({ field }) => (
-                  <div className="col-md-6 pb-3">
-                    <input
-                      {...field}
-                      minLength="4"
-                      maxLength="15"
-                      placeholder="Telefono"
-                      autoComplete="off"
-                      type="number"
-                      className=" input-bottom-border required"
-                      style={{ paddingBottom: "35px", color: "black" }}
-                    />
-                    {errors.lastname && <p>{errors.lastname.message}</p>}
-                  </div>
-                )}
+              {errors.email && (
+                <p className="page-texto-rojo ">El email es requerido</p>
+              )}
+              <input
+                type="text"
+                {...register("telephone", { required: true })}
+                className="input-bottom-border required"
+                placeholder="Telefono"
+                style={{ paddingBottom: "35px", color: "black" }}
               />
-              <Controller
-                name="studies"
-                control={control}
-                rules={{
-                  required: "El Estudio es requerido",
-                  minLength: {
-                    value: 4,
-                    message:
-                      "El nombre de Estudio debe tener entre 4 y 20 caracteres",
-                  },
-                  maxLength: {
-                    value: 20,
-                    message: "El Estudio no puede tener más de 20 caracteres",
-                  },
-                }}
-                render={({ field }) => (
-                  <div className="col-md-6 pb-3">
-                    <input
-                      {...field}
-                      minLength="4"
-                      maxLength="20"
-                      placeholder="Estudios"
-                      autoComplete="off"
-                      type="text"
-                      className=" input-bottom-border required"
-                      style={{ paddingBottom: "35px", color: "black" }}
-                    />
-                    {errors.lastname && <p>{errors.lastname.message}</p>}
-                  </div>
-                )}
+              {errors.telephone && (
+                <p className="page-texto-rojo">El telefono es requerido</p>
+              )}
+              <input
+                type="text"
+                {...register("studies", { required: true })}
+                className="input-bottom-border required"
+                placeholder="Estudios"
+                style={{ paddingBottom: "35px", color: "black" }}
               />
-              <Controller
-                name="message"
-                control={control}
-                rules={{
-                  required: "El mensaje es requerido",
-                  maxLength: {
-                    value: 250,
-                    message: "El mensaje no puede tener más de 250 caracteres",
-                  },
-                }}
-                render={({ field }) => (
-                  <div>
-                    <textarea
-                      {...field}
-                      maxLength="250"
-                      placeholder="Deja tu mensaje"
-                      autoComplete="off"
-                      className="input-bottom-border required"
-                      style={{ paddingBottom: "35px" }}
-                    />
-                    {errors.message && <p>{errors.message.message}</p>}
-                  </div>
-                )}
+              {errors.studies && (
+                <p className="page-texto-rojo">Los estudios son requeridos</p>
+              )}
+              <textarea
+                type="text"
+                {...register("comments", { required: true })}
+                className="input-bottom-border required"
+                placeholder="Comentarios"
+                style={{ paddingBottom: "35px", color: "black" }}
               />
-              {formMessage && (
-                <p className="p-2 rounded bg-success text-white">
-                  {formMessage}
+              {errors.comments && (
+                <p className="page-texto-rojo">
+                  Los comentarios son requeridos
                 </p>
               )}
-              {formError && (
-                <p className="p-2 rounded bg-danger text-white">{formError}</p>
-              )}
-
               <div className="form-button-container col-12 pb-3">
                 <button className="button-form" type="submit">
                   Enviar
