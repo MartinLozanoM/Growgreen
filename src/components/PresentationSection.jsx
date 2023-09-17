@@ -5,7 +5,7 @@ import { Button } from "react-scroll";
 export const PresentationSection = () => {
   return (
     <div className="container-fluid all-section" id="presentation-section">
-      <div className="section-size row presentacion p-2 pt-5">
+      <div className="section-size row presentacion p-2 ">
         <div className="col-md-8 mt-5 pt-5 col-sm d-flex flex-column justify-content-center align-items-center mb-5 ">
           <div className=" text-presentacion ">
             <h1 className="text-center ">

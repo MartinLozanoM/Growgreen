@@ -4,7 +4,7 @@ import Team from "../assets/image/Team.jpg";
 export const AxesSection = () => {
   return (
     <div className="section-size container-fluid all-section text-center">
-      <h2 className="mb-3">Ejes de Growgreen</h2>
+      <h2 className="mb-3 pt-5">Ejes de Growgreen</h2>
       <div className="d-md-flex mb-3">
         <div className="col-md-6 d-md-flex flex-md-column justify-content-md-center p-3 axes-one">
           <h3>Sustentabilidad</h3>

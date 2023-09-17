@@ -8,8 +8,9 @@ export const FeaturedSection = () => {
       className="section-size container-fluid  featured-container"
       id="featured-section"
     >
-      <h2 className="text-center featured-title">¿Que buscamos?</h2>
-      <div className="row row p-4 section-size">
+      
+      <div className="row p-4  ">
+      <h2 className="text-center p-3 featured-title ">¿Que buscamos?</h2>
         <div className="col-md-4 col-sm-12 d-flex justify-content-around flex-column p-4">
           <div className="featured-left p-2 ">
             <h2>Cordialidad y Educación</h2>
@@ -33,6 +34,7 @@ export const FeaturedSection = () => {
             className="Logo-Featured"
             alt="Logo Featured-Section"
           />
+          
         </div>
         <div className="col-md-4 col-sm-12 d-flex justify-content-around flex-column text-white p-4">
           <div className="featured-rigth p-2">
