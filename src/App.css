@@ -299,6 +299,12 @@ h3 {
   font-size: 15px;
   color: var(--colorfuente);
 }
+.form-error {
+  background-color: red; 
+  color: white; 
+  padding: 5px; 
+}
+
 
 /**Featured**/
 
