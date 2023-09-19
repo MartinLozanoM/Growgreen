@@ -42,7 +42,7 @@ const FormSection = () => {
                 style={{ paddingBottom: "35px", color: "black" }}
               />
               {errors.name && (
-                <p className="page-texto-rojo">El nombre es requerido</p>
+                <p className="form-error">El nombre es requerido</p>
               )}
               <input
                 type="text"
@@ -52,7 +52,7 @@ const FormSection = () => {
                 style={{ paddingBottom: "35px", color: "black" }}
               />
               {errors.lastname && (
-                <p className="page-texto-rojo">El apellido es requerido</p>
+                <p className="form-error">El apellido es requerido</p>
               )}
               <input
                 type="email"
@@ -62,7 +62,7 @@ const FormSection = () => {
                 style={{ paddingBottom: "35px", color: "black" }}
               />
               {errors.email && (
-                <p className="page-texto-rojo ">El email es requerido</p>
+                <p className="form-error ">El email es requerido</p>
               )}
               <input
                 type="text"
@@ -72,7 +72,7 @@ const FormSection = () => {
                 style={{ paddingBottom: "35px", color: "black" }}
               />
               {errors.telephone && (
-                <p className="page-texto-rojo">El telefono es requerido</p>
+                <p className="form-error">El telefono es requerido</p>
               )}
               <input
                 type="text"
@@ -82,7 +82,7 @@ const FormSection = () => {
                 style={{ paddingBottom: "35px", color: "black" }}
               />
               {errors.studies && (
-                <p className="page-texto-rojo">Los estudios son requeridos</p>
+                <p className="form-error">Los estudios son requeridos</p>
               )}
               <textarea
                 type="text"
@@ -92,7 +92,7 @@ const FormSection = () => {
                 style={{ paddingBottom: "35px", color: "black" }}
               />
               {errors.comments && (
-                <p className="page-texto-rojo">
+                <p className="form-error">
                   Los comentarios son requeridos
                 </p>
               )}
