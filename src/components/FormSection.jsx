@@ -92,9 +92,7 @@ const FormSection = () => {
                 style={{ paddingBottom: "35px", color: "black" }}
               />
               {errors.comments && (
-                <p className="form-error">
-                  Los comentarios son requeridos
-                </p>
+                <p className="form-error">Los comentarios son requeridos</p>
               )}
               <div className="form-button-container col-12 pb-3">
                 <button className="button-form" type="submit">
@@ -109,7 +107,7 @@ const FormSection = () => {
             className="text-center "
             style={{ marginTop: "10px", paddingTop: "10px" }}
           >
-            Slogan de Grow Green
+            Slogan de Punto Colombres
           </h2>
           <p className="text-center pb-0 mb-0 ">"PENSAMOS EN UN LEGADO"</p>
           <Image

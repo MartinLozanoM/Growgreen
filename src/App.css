@@ -154,7 +154,6 @@ h3 {
 .about-divisor {
   background-color: #f4f4f4;
   height: 10px;
-
   border: none;
 }
 .objetives-container {
@@ -300,11 +299,10 @@ h3 {
   color: var(--colorfuente);
 }
 .form-error {
-  background-color: red; 
-  color: white; 
-  padding: 5px; 
+  background-color: red;
+  color: white;
+  padding: 5px;
 }
-
 
 /**Featured**/
 
@@ -316,7 +314,6 @@ h3 {
   color: #000000;
   font-family: "League Spartan", sans-serif;
   font-size: 60px;
-
 }
 
 .featured-rigth {
@@ -380,10 +377,6 @@ h3 {
 
 /** Axes **/
 
-.axes-one {
-  border-right: 3px solid black;
-}
-
 /**Footer**/
 .footer {
   font-family: "Open Sans", sans-serif;
@@ -414,6 +407,12 @@ h3 {
 @media (min-width: 400px) {
   .button-form {
     width: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .axes-one {
+    border-right: 3px solid black;
   }
 }
 

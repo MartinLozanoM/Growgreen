@@ -25,8 +25,8 @@ export const AboutSection = () => {
             Estudio.
           </p>
         </div>
-        <ObjetivesSection />
       </div>
+      <ObjetivesSection />
     </div>
   );
 };

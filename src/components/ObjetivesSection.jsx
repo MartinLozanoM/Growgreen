@@ -6,7 +6,7 @@ export const ObjetivesSection = () => {
   return (
     <div className="container-fluid mt-lg-3 all-section" id="objetives-section">
       <div className="text-center row objetives-container d-lg-flex justify-content-lg-around">
-        <div className="col-lg-3 p-3 border border-dark objetives">
+        <div className="col-lg-3 p-3 objetives">
           <img src={Mission} alt="Mision" width="100" height="100" />
           <h3 className="mt-3 mb-2">Mision</h3>
           <p>
@@ -16,7 +16,7 @@ export const ObjetivesSection = () => {
             impactar positivamente en el modelo Grow Green Global de nuestro HUB
           </p>
         </div>
-        <div className="col-lg-3 p-3 border border-dark objetives">
+        <div className="col-lg-3 p-3 objetives">
           <img src={Vision} alt="Vision" width="100" height="100" />
           <h3 className="mt-3 mb-2">Vision</h3>
           <p>
@@ -25,7 +25,7 @@ export const ObjetivesSection = () => {
             Sostenibles. Ser reconocidos como agente de innovación.
           </p>
         </div>
-        <div className="col-lg-3 p-3  border border-dark objetives">
+        <div className="col-lg-3 p-3  objetives">
           <img src={Values} alt="Valores" width="100" height="100" />
           <h3 className="mt-3 mb-2">Valores</h3>
           <p>
