@@ -11,7 +11,7 @@ export const AxesSection = () => {
         <div className="col-md-6 d-md-flex flex-md-column justify-content-md-center p-3 axes-one">
           <h3>Innovación</h3>
           <p>
-            es un marco de colaboración creado para promover el desarrollo y la
+            Es un marco de colaboración creado para promover el desarrollo y la
             ejecución de proyectos de edificación de acuerdo con los principios
             “de cuna a la cuna” y la economía circular. Es una iniciativa
             orientada al intercambio de conocimiento para el desarrollo y la
