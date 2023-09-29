@@ -377,6 +377,25 @@ h3 {
 
 /** Axes **/
 
+/* CompanySection.css */
+
+.company-section {
+  background-color: #f4f4f4; 
+  padding: 40px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 24px;
+  text-align: start;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+.logo-row {
+  margin-top: 20px;
+}
+
 /**Footer**/
 .footer {
   font-family: "Open Sans", sans-serif;
