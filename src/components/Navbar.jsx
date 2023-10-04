@@ -8,7 +8,7 @@ export const NavbarPagination = () => {
   return (
     <Navbar expand="md" className="navbar-fixed">
       <Container className="navbar-container">
-        <Navbar.Brand className="brand-container" href="#home">
+        <Navbar.Brand className="brand-container">
           <img
             src={Logo}
             width="50"

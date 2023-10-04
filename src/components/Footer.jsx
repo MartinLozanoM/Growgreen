@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className="about-divisor container-fluid rounded mt-4 container"></div>
         <div className="row text-white p-5 pb-4 ">
           <div className="col-md-3 col-sm-12">
-            <h2 className="fw-bold fs-1">PUNTO COLOMBRES</h2>
+            <h2 className="fw-bold">PUNTO COLOMBRES</h2>
             <p className="fw-light text-start">
               Con esta marca con forma abierta intentamos transmitir un mensaje
               de transversalidad y oportunidad; y hacemos uso de tonos verdes
@@ -56,8 +56,11 @@ export const Footer = () => {
               <li className="text-secondary">contacto@punto-colombres.com</li>
             </ul>
             <div className=" mt-5 d-flex align-items-end">
-              <a href="https://www.facebook.com/" className="icon-link">
-                <FaFacebook size={36} />
+              <a
+                href="https://www.instagram.com/punto_colombres_hub/"
+                className="icon-link"
+              >
+                <FaInstagram size={36} />
               </a>
               <a href="https://www.linkedin.com/" className="icon-link">
                 <FaLinkedin size={36} />
