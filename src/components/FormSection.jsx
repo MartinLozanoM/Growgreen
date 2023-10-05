@@ -33,12 +33,7 @@ const FormSection = () => {
               ¿Queres saber mas?
             </h2>
 
-            <form
-              className="row my-4"
-              name="contact"
-              method="POST"
-              data-netlify="true"
-            >
+            <form className="row my-4" name="contact" netlify>
               <input
                 type="text"
                 // {...register("name", { required: true })}
