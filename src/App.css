@@ -419,6 +419,9 @@ h3 {
   font-family: "Open Sans", sans-serif;
   color: var(--colorfuente);
 }
+.footer ul li {
+  line-height: 30px;
+}
 .icon-link {
   text-decoration: none;
   margin-right: 10px;
