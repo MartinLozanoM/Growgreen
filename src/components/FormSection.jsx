@@ -1,22 +1,22 @@
-import { useForm, Controller } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { Image } from "react-bootstrap";
 import Logo from "../assets/image/Logo.png";
-import { useClients } from "../context/ClientProvider.jsx";
+// import { useClients } from "../context/ClientProvider.jsx";
 
 const FormSection = () => {
-  // const {
-  //   register,
-  //   handleSubmit,
-  //   formState: { errors },
-  //   reset,
-  // } = useForm({
-  //   defaultValues: {
-  //     name: "",
-  //     lastname: "",
-  //     email: "",
-  //     message: "",
-  //   },
-  // });
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm({
+    defaultValues: {
+      name: "",
+      lastname: "",
+      email: "",
+      message: "",
+    },
+  });
   // const { createClient } = useClients();
 
   // const onSubmit = handleSubmit(async (values) => {
@@ -37,70 +37,70 @@ const FormSection = () => {
               <input type="hidden" name="form-name" value="contact" />
               <input
                 type="text"
-                // {...register("name", { required: true })}
+                {...register("name", { required: true })}
                 className="input-bottom-border required"
                 name="name"
                 placeholder="Nombre"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
-              {/* {errors.name && (
+              {errors.name && (
                 <p className="form-error">El nombre es requerido</p>
-              )} */}
+              )}
               <input
                 type="text"
-                // {...register("lastname", { required: true })}
+                {...register("lastname", { required: true })}
                 className="input-bottom-border required"
                 name="lastname"
                 placeholder="Apellido"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
-              {/* {errors.lastname && (
+              {errors.lastname && (
                 <p className="form-error">El apellido es requerido</p>
-              )} */}
+              )}
               <input
                 type="email"
-                // {...register("email", { required: true })}
+                {...register("email", { required: true })}
                 className="input-bottom-border required"
                 name="email"
                 placeholder="Email"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
-              {/* {errors.email && (
+              {errors.email && (
                 <p className="form-error ">El email es requerido</p>
-              )} */}
+              )}
               <input
                 type="text"
-                // {...register("telephone", { required: true })}
+                {...register("telephone", { required: true })}
                 className="input-bottom-border required"
                 name="telephone"
                 placeholder="Telefono"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
-              {/* {errors.telephone && (
+              {errors.telephone && (
                 <p className="form-error">El telefono es requerido</p>
-              )} */}
+              )}
               <input
                 type="text"
-                // {...register("studies", { required: true })}
+                {...register("studies", { required: true })}
                 className="input-bottom-border required"
                 name="studies"
                 placeholder="Estudios"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
-              {/* {errors.studies && (
+              {errors.studies && (
                 <p className="form-error">Los estudios son requeridos</p>
-              )} */}
+              )}
               <textarea
                 type="text"
-                // {...register("comments", { required: true })}
+                {...register("comments", { required: true })}
                 className="input-bottom-border required"
                 name="comments"
                 placeholder="Comentarios"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
-              {/* {errors.comments && (
+              {errors.comments && (
                 <p className="form-error">Los comentarios son requeridos</p>
-              )} */}
+              )}
               <div className="form-button-container col-12 pb-3">
                 <button className="button-form" type="submit">
                   Enviar
