@@ -99,7 +99,7 @@ const FormSection = () => {
                 type="text"
                 {...register("comments", { required: true })}
                 className="input-bottom-border required"
-                name="message"
+                name="comments"
                 placeholder="Comentarios"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
