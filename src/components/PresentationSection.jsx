@@ -1,5 +1,5 @@
 import { Image } from "react-bootstrap";
-import Logo from "../assets/image/LogoTransparenteVerde.png";
+import Logo from "../assets/image/Logo.png";
 import { Button } from "react-scroll";
 
 export const PresentationSection = () => {
@@ -9,7 +9,7 @@ export const PresentationSection = () => {
         <div className="col-md-8 mt-5 pt-5 col-sm d-flex flex-column justify-content-center align-items-center mb-5 ">
           <div className=" text-presentacion ">
             <h1 className="text-center ">
-              Grown Green <br /> Punto Colombres
+              Punto Colombres <br /> HUB Tucuman
             </h1>
             <p className="text-center">
               Somos Grow Green Punto Colombres, un espacio de Crecimiento,

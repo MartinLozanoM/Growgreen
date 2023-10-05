@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Logo from "../assets/image/LogoTransparente.png";
+import Logo from "../assets/image/Logo.png";
 
 export const NavbarPagination = () => {
   return (

@@ -1,6 +1,6 @@
 import { useForm, Controller } from "react-hook-form";
 import { Image } from "react-bootstrap";
-import Logo from "../assets/image/LogoTransparente.png";
+import Logo from "../assets/image/Logo.png";
 import { useClients } from "../context/ClientProvider.jsx";
 
 const FormSection = () => {
