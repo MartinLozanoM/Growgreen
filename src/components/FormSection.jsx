@@ -33,11 +33,18 @@ const FormSection = () => {
               ¿Queres saber mas?
             </h2>
 
-            <form className=" row my-4" onSubmit={onSubmit}>
+            <form
+              className="row my-4"
+              onSubmit={onSubmit}
+              name="contact"
+              method="POST"
+              data-netlify="true"
+            >
               <input
                 type="text"
                 {...register("name", { required: true })}
                 className="input-bottom-border required"
+                name="name"
                 placeholder="Nombre"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
@@ -48,6 +55,7 @@ const FormSection = () => {
                 type="text"
                 {...register("lastname", { required: true })}
                 className="input-bottom-border required"
+                name="lastname"
                 placeholder="Apellido"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
@@ -58,6 +66,7 @@ const FormSection = () => {
                 type="email"
                 {...register("email", { required: true })}
                 className="input-bottom-border required"
+                name="email"
                 placeholder="Email"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
@@ -68,6 +77,7 @@ const FormSection = () => {
                 type="text"
                 {...register("telephone", { required: true })}
                 className="input-bottom-border required"
+                name="telephone"
                 placeholder="Telefono"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
@@ -78,6 +88,7 @@ const FormSection = () => {
                 type="text"
                 {...register("studies", { required: true })}
                 className="input-bottom-border required"
+                name="studies"
                 placeholder="Estudios"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
@@ -88,6 +99,7 @@ const FormSection = () => {
                 type="text"
                 {...register("comments", { required: true })}
                 className="input-bottom-border required"
+                name="message"
                 placeholder="Comentarios"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
