@@ -84,6 +84,10 @@ h3 {
   border-bottom: 3px solid var(--verdeclaro);
 }
 
+.brand-container img {
+  filter: invert(69%) sepia(31%) saturate(519%) hue-rotate(92deg)
+    brightness(91%) contrast(95%);
+}
 /**Presentacion**/
 .section-size {
   min-height: 100vh;
@@ -139,6 +143,8 @@ h3 {
   max-width: 100%;
   height: auto;
   object-fit: contain;
+  filter: invert(69%) sepia(31%) saturate(519%) hue-rotate(92deg)
+    brightness(91%) contrast(95%);
 }
 
 /** Objetivos **/
@@ -298,6 +304,10 @@ h3 {
   font-size: 15px;
   color: var(--colorfuente);
 }
+.LogoForm img {
+  filter: invert(69%) sepia(31%) saturate(519%) hue-rotate(92deg)
+    brightness(91%) contrast(95%);
+}
 .form-error {
   background-color: red;
   color: white;
@@ -380,7 +390,7 @@ h3 {
 /* CompanySection.css */
 
 .company-section {
-  background-color: #f4f4f4; 
+  background-color: #f4f4f4;
   padding: 40px;
   text-align: center;
 }
@@ -389,7 +399,7 @@ h3 {
   font-size: 24px;
   text-align: start;
   margin-bottom: 20px;
-  color: #333; 
+  color: #333;
 }
 
 .logo-row {
@@ -408,6 +418,9 @@ h3 {
 .footer p {
   font-family: "Open Sans", sans-serif;
   color: var(--colorfuente);
+}
+.footer ul li {
+  line-height: 30px;
 }
 .icon-link {
   text-decoration: none;

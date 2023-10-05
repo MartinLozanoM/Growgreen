@@ -1,7 +1,7 @@
-import { useForm, Controller } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { Image } from "react-bootstrap";
-import Logo from "../assets/image/LogoTransparente.png";
-import { useClients } from "../context/ClientProvider.jsx";
+import Logo from "../assets/image/Logo.png";
+// import { useClients } from "../context/ClientProvider.jsx";
 
 const FormSection = () => {
   const {
@@ -17,12 +17,12 @@ const FormSection = () => {
       message: "",
     },
   });
-  const { createClient } = useClients();
+  // const { createClient } = useClients();
 
-  const onSubmit = handleSubmit(async (values) => {
-    createClient(values);
-    reset();
-  });
+  // const onSubmit = handleSubmit(async (values) => {
+  //   createClient(values);
+  //   reset();
+  // });
 
   return (
     <div className="section-size container-fluid" id="contact-section">
@@ -33,11 +33,13 @@ const FormSection = () => {
               ¿Queres saber mas?
             </h2>
 
-            <form className=" row my-4" onSubmit={onSubmit}>
+            <form className="row my-4" name="contact" method="POST">
+              <input type="hidden" name="form-name" value="contact" />
               <input
                 type="text"
                 {...register("name", { required: true })}
                 className="input-bottom-border required"
+                name="name"
                 placeholder="Nombre"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
@@ -48,6 +50,7 @@ const FormSection = () => {
                 type="text"
                 {...register("lastname", { required: true })}
                 className="input-bottom-border required"
+                name="lastname"
                 placeholder="Apellido"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
@@ -58,6 +61,7 @@ const FormSection = () => {
                 type="email"
                 {...register("email", { required: true })}
                 className="input-bottom-border required"
+                name="email"
                 placeholder="Email"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
@@ -68,6 +72,7 @@ const FormSection = () => {
                 type="text"
                 {...register("telephone", { required: true })}
                 className="input-bottom-border required"
+                name="telephone"
                 placeholder="Telefono"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
@@ -78,6 +83,7 @@ const FormSection = () => {
                 type="text"
                 {...register("studies", { required: true })}
                 className="input-bottom-border required"
+                name="studies"
                 placeholder="Estudios"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
@@ -88,6 +94,7 @@ const FormSection = () => {
                 type="text"
                 {...register("comments", { required: true })}
                 className="input-bottom-border required"
+                name="comments"
                 placeholder="Comentarios"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
