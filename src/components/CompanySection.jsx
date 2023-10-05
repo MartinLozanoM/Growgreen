@@ -1,17 +1,16 @@
-import React from 'react';
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
-import Row from 'react-bootstrap/Row';
-import AgonLogo from "../assets/image/Agon.png"; 
-import ApiaLogo from "../assets/image/Apia.png"; 
-import Arqui3Logo from "../assets/image/Arqui3.png"; 
-
+import React from "react";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
+import Row from "react-bootstrap/Row";
+import AgonLogo from "../assets/image/Agon.png";
+import ApiaLogo from "../assets/image/Apia.png";
+import Arqui3Logo from "../assets/image/Arqui3.png";
 
 export const CompanySection = () => {
   return (
     <Container className="company-section">
-      <h3 className="section-title">Clientes Destacados</h3>
+      <h3 className="section-title">Empresas Aliadas</h3>
       <hr />
       <Row className="logo-row">
         <Col xs={6} md={4}>

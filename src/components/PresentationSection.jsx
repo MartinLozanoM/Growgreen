@@ -12,7 +12,7 @@ export const PresentationSection = () => {
               Punto Colombres <br /> HUB Tucuman
             </h1>
             <p className="text-center">
-              Somos Grow Green Punto Colombres, un espacio de Crecimiento,
+              Somos Punto Colombres HUB Tucuman, un espacio de Crecimiento,
               Conección y Concreción. El primer HUB que reúne Tecnología y
               Triple Impacto en Argentina. Somos personas que pensamos en
               colaborar, Co crear, Conectar en entornos diferentes.

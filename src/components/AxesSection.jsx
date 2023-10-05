@@ -6,7 +6,7 @@ import TripleImpacto from "../assets/image/TripleImpacto.jpeg";
 export const AxesSection = () => {
   return (
     <div className="section-size container-fluid all-section text-center">
-      <h2 className="mb-3">Ejes de Growgreen</h2>
+      <h2 className="mb-3">Ejes de Punto Colombres</h2>
       <div className="d-md-flex mb-3">
         <div className="col-md-6 d-md-flex flex-md-column justify-content-md-center p-3 axes-one">
           <h3>Innovación</h3>
