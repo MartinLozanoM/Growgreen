@@ -8,6 +8,7 @@ import { Footer } from "./components/Footer.jsx";
 import { AboutSection } from "./components/AboutSection.jsx";
 import { ClientProvider } from "./context/ClientProvider";
 import { CompanySection } from "./components/CompanySection";
+import OfficeGallery from "./components/GallerySection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <PresentationSection />
       <AboutSection />
       <FeaturedSection />
+      <OfficeGallery/>
       <CompanySection/>
       <FormSection />
       <Footer />
