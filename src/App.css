@@ -413,7 +413,7 @@ h3 {
   position: relative;
 }
 
-.card-container{
+.card-container {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -421,11 +421,10 @@ h3 {
   transition: transform 0.2s ease-in-out;
 }
 .office-image {
-
   width: 100%;
   height: 200px;
 }
-.office-body{
+.office-body {
   background-color: #0000009d;
 }
 .card-container:hover {
@@ -433,12 +432,12 @@ h3 {
 }
 
 .modal-container {
-  max-width: 20%; 
-  margin: 0 auto; 
+  max-width: 20%;
+  margin: 0 auto;
   padding: 20px;
 }
 .modal-image {
-  max-width: 100%; 
+  max-width: 100%;
   height: auto;
 }
 
@@ -457,6 +456,13 @@ h3 {
 }
 .footer ul li {
   line-height: 30px;
+}
+.footer ul li a {
+  color: var(--colorfuente);
+}
+.footer ul li a:hover {
+  transform: scale(1.1);
+  color: #65c18b;
 }
 .icon-link {
   text-decoration: none;

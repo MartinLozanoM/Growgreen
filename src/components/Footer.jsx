@@ -19,11 +19,13 @@ export const Footer = () => {
           <div className="col-md-6">
             <h2 className="">Contacto</h2>
             <ul className="ps-0">
-              <li className="text-secondary">+54 9 381-5156811</li>
-              <li className="text-secondary">
-                José Colombres 338, San Miguel de Tucumán
+              <li className="">
+                <a href="https://api.whatsapp.com/send?phone=+543815156811&text=Hola%21+Quisiera+mas+informacion+sobre+el+HUB">
+                  +54 9 381-5156811
+                </a>
               </li>
-              <li className="text-secondary">contacto@hubtucuman.com.ar</li>
+              <li className="">José Colombres 338, San Miguel de Tucumán</li>
+              <li className="">contacto@hubtucuman.com.ar</li>
             </ul>
             <div className="mt-5 d-flex justify-content-center">
               <a
@@ -40,7 +42,7 @@ export const Footer = () => {
         </div>
         <div>
           <hr />
-          <p className="text-center text-secondary">
+          <p className="text-center">
             Todos los derechos reservados &copy; 2023
           </p>
         </div>
