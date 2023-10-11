@@ -10,16 +10,16 @@ import Arqui3Logo from "../assets/image/Arqui3.png";
 export const CompanySection = () => {
   return (
     <Container className="company-section">
-      <h3 className="section-title">Empresas Aliadas</h3>
+      <h3 className="section-title text-center">Empresas Aliadas</h3>
       <hr />
       <Row className="logo-row">
-        <Col xs={6} md={4}>
+        <Col xs={12} md={4}>
           <Image src={AgonLogo} rounded fluid alt="Agon" />
         </Col>
-        <Col xs={6} md={4}>
+        <Col xs={12} md={4}>
           <Image src={ApiaLogo} rounded fluid alt="Apia" />
         </Col>
-        <Col xs={6} md={4}>
+        <Col xs={12} md={4}>
           <Image src={Arqui3Logo} rounded fluid alt="Arqui3" />
         </Col>
       </Row>

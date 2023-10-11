@@ -23,10 +23,7 @@ export const AxesSection = () => {
         </div>
       </div>
       <div className="d-md-flex mb-3">
-        <div className="col-md-8">
-          <Image className="p-3" src={Tecnologia} fluid />
-        </div>
-        <div className="col-md-4 d-md-flex flex-md-column justify-content-md-center p-3 axes-two">
+        <div className="col-md-4 d-md-flex flex-md-column justify-content-md-center p-3 axes-two order-md-2">
           <h3>Tecnología</h3>
           <p>
             Ofrecemos la oportunidad de coincidir, conocerse, trabajar juntos,
@@ -35,6 +32,9 @@ export const AxesSection = () => {
             un mismo lugar a muchos emprendedores con intereses de desarrollo
             comunes.
           </p>
+        </div>
+        <div className="col-md-8 order-md-1">
+          <Image className="p-3" src={Tecnologia} fluid />
         </div>
       </div>
       <div className="d-md-flex mb-3">

@@ -19,15 +19,15 @@ const OfficeGallery = () => {
       imageUrl: Photo2,
     },
     {
-        id: 3,
-        name: "Oficina 3",
-        imageUrl: Photo3,
-      },
-      {
-        id: 4,
-        name: "Oficina 4",
-        imageUrl: Photo4,
-      },
+      id: 3,
+      name: "Oficina 3",
+      imageUrl: Photo3,
+    },
+    {
+      id: 4,
+      name: "Oficina 4",
+      imageUrl: Photo4,
+    },
   ];
 
   const [modalOpen, setModalOpen] = useState(false);
@@ -59,15 +59,12 @@ const OfficeGallery = () => {
                   onClick={() => openModal(office.imageUrl)}
                 />
               </div>
-              <div className="office-body">
-                <h5 className="p-2 text-center text-white">{office.name}</h5>
-              </div>
             </div>
           </div>
         ))}
       </div>
 
-      <Modal open={modalOpen} onClose={closeModal}  center>
+      <Modal open={modalOpen} onClose={closeModal} center>
         <img
           src={selectedImage}
           alt="Imagen ampliada"
@@ -77,7 +74,6 @@ const OfficeGallery = () => {
             margin: "0 auto",
             display: "block",
           }}
-          
         />
       </Modal>
     </div>
