@@ -476,6 +476,15 @@ h3 {
   color: #65c18b;
 }
 
+/* Companies section */
+
+.companies-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 250px;
+}
+
 /*?-----Media Queries-----*/
 
 @media (min-width: 400px) {
