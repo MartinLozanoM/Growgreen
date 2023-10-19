@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Photo1 from "../assets/Hub/photo_4965651848753163451_y.jpg";
-import Photo2 from "../assets/Hub/photo_4965651848753163452_y.jpg";
+import Photo2 from "../assets/Hub/oficina2.jpeg";
 import Photo3 from "../assets/Hub/photo_4965651848753163455_y.jpg";
 import Photo4 from "../assets/Hub/photo_4965651848753163453_y.jpg";
 import { Modal } from "react-responsive-modal";

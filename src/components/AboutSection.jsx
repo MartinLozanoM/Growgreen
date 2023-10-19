@@ -1,6 +1,7 @@
 import Image from "react-bootstrap/Image";
 import Team from "../assets/image/Team.jpg";
 import { ObjetivesSection } from "./ObjetivesSection";
+import { IndustriesSection } from "./IndustriesSection";
 
 export const AboutSection = () => {
   return (
@@ -27,6 +28,7 @@ export const AboutSection = () => {
         </div>
       </div>
       <ObjetivesSection />
+      <IndustriesSection />
     </div>
   );
 };

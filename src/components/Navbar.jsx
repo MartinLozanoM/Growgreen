@@ -54,7 +54,7 @@ export const NavbarPagination = () => {
                   offset={-75}
                   duration={100}
                 >
-                  Destacados
+                  Objetivos
                 </Link>
               </li>
               <li className="nav-items">
