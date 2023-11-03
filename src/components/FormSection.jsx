@@ -37,68 +37,68 @@ const FormSection = () => {
               <input type="hidden" name="form-name" value="contact" />
               <input
                 type="text"
-                {...register("name", { required: true })}
+                {...register("Nombre", { required: true })}
                 className="input-bottom-border required"
-                name="name"
+                name="Nombre"
                 placeholder="Nombre"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
-              {errors.name && (
+              {errors.Nombre && (
                 <p className="form-error">El nombre es requerido</p>
               )}
               <input
                 type="text"
-                {...register("lastname", { required: true })}
+                {...register("Apellido", { required: true })}
                 className="input-bottom-border required"
-                name="lastname"
+                name="Apellido"
                 placeholder="Apellido"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
-              {errors.lastname && (
+              {errors.Apellido && (
                 <p className="form-error">El apellido es requerido</p>
               )}
               <input
                 type="email"
-                {...register("email", { required: true })}
+                {...register("Email", { required: true })}
                 className="input-bottom-border required"
-                name="email"
+                name="Email"
                 placeholder="Email"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
-              {errors.email && (
+              {errors.Email && (
                 <p className="form-error ">El email es requerido</p>
               )}
               <input
                 type="text"
-                {...register("telephone", { required: true })}
+                {...register("Telefono", { required: true })}
                 className="input-bottom-border required"
-                name="telephone"
+                name="Telefono"
                 placeholder="Telefono"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
-              {errors.telephone && (
+              {errors.Telefono && (
                 <p className="form-error">El telefono es requerido</p>
               )}
               <input
                 type="text"
-                {...register("studies", { required: true })}
+                {...register("Estudios", { required: true })}
                 className="input-bottom-border required"
-                name="studies"
+                name="Estudios"
                 placeholder="Estudios"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
-              {errors.studies && (
+              {errors.Estudios && (
                 <p className="form-error">Los estudios son requeridos</p>
               )}
               <textarea
                 type="text"
-                {...register("comments", { required: true })}
+                {...register("Comentarios", { required: true })}
                 className="input-bottom-border required"
-                name="comments"
+                name="Comentarios"
                 placeholder="Comentarios"
                 style={{ paddingBottom: "35px", color: "black" }}
               />
-              {errors.comments && (
+              {errors.Comentarios && (
                 <p className="form-error">Los comentarios son requeridos</p>
               )}
               <div className="form-button-container col-12 pb-3">
