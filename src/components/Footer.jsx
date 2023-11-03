@@ -24,7 +24,7 @@ export const Footer = () => {
                   +54 9 381-5156811
                 </a>
               </li>
-              <li className="">José Colombres 338, San Miguel de Tucumán</li>
+              <li className="">José Colombres 372, San Miguel de Tucumán</li>
               <li className="">contacto@hubtucuman.com.ar</li>
             </ul>
             <div className="mt-5 d-flex justify-content-center">
