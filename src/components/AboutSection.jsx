@@ -17,7 +17,7 @@ export const AboutSection = () => {
           <h2 className="mt-3">Sobre Nosotros</h2>
           <p className="text-dark">
             El Proyecto ideado por el Lic. Gerardo R. Blanche, Punto Colombres
-            HUB Tucuman, se encuentra ubicado en José Colombres 338 de San
+            HUB Tucuman, se encuentra ubicado en José Colombres 372 de San
             Miguel de Tucumán, emplazado cerca del centro de la ciudad,
             comprometiéndose a la arquitectura. Es por ello que Arqui3 SRL pensó
             en trabajar el espacio físico para valorizar la propuesta
