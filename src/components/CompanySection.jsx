@@ -26,17 +26,14 @@ export const CompanySection = () => {
             src={CeicytLogo}
             rounded
             fluid
-            alt="Arqui3"
+            alt="Ceicyt"
           />
         </Col>
         <Col xs={12} md={4} className="companies-container">
-          <Image src={Arqui3Logo} rounded fluid alt="Arqui3" />
+          <Image src={KosLogo} rounded fluid alt="Kos-media" />
         </Col>
         <Col xs={12} md={4} className="companies-container">
-          <Image src={KosLogo} rounded fluid alt="Arqui3" />
-        </Col>
-        <Col xs={12} md={4} className="companies-container">
-          <Image src={SalomonLogo} rounded fluid alt="Arqui3" />
+          <Image src={SalomonLogo} rounded fluid alt="Salomon" />
         </Col>
         <Col xs={12} md={4} className="companies-container">
           <Image src={ApiaLogo} rounded fluid alt="Apia" />
